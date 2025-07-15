@@ -83,7 +83,7 @@ public class PlayerBullet : MonoBehaviour
 
         soundLifeSpan -= Time.deltaTime;
 
-        bulletRigidbody.velocity = transform.up * bulletSpeed;
+        bulletRigidbody.linearVelocity = transform.up * bulletSpeed;
 
         bulletRigidbody.rotation += -PlayerController.playerController.rotationInput * PlayerController.playerController.rotationSpeed;
 

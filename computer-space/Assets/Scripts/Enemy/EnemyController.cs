@@ -200,32 +200,32 @@ public class EnemyController : MonoBehaviour
 
             switch (movementDirection0)
             {
-                case 0: enemyRigidbody[0].velocity = new Vector2(0f, 0f);
-                        enemyRigidbody[1].velocity = new Vector2(0f, 0f); break;
+                case 0: enemyRigidbody[0].linearVelocity = new Vector2(0f, 0f);
+                        enemyRigidbody[1].linearVelocity = new Vector2(0f, 0f); break;
 
-                case 1: enemyRigidbody[0].velocity = new Vector2(-movementSpeed, 0f);
-                        enemyRigidbody[1].velocity = new Vector2(-movementSpeed, 0f); break;
+                case 1: enemyRigidbody[0].linearVelocity = new Vector2(-movementSpeed, 0f);
+                        enemyRigidbody[1].linearVelocity = new Vector2(-movementSpeed, 0f); break;
 
-                case 2: enemyRigidbody[0].velocity = new Vector2(movementSpeed, 0f);
-                        enemyRigidbody[1].velocity = new Vector2(movementSpeed, 0f); break;
+                case 2: enemyRigidbody[0].linearVelocity = new Vector2(movementSpeed, 0f);
+                        enemyRigidbody[1].linearVelocity = new Vector2(movementSpeed, 0f); break;
 
-                case 3: enemyRigidbody[0].velocity = new Vector2(0f, movementSpeed);
-                        enemyRigidbody[1].velocity = new Vector2(0f, movementSpeed); break;
+                case 3: enemyRigidbody[0].linearVelocity = new Vector2(0f, movementSpeed);
+                        enemyRigidbody[1].linearVelocity = new Vector2(0f, movementSpeed); break;
 
-                case 4: enemyRigidbody[0].velocity = new Vector2(0f, -movementSpeed);
-                        enemyRigidbody[1].velocity = new Vector2(0f, -movementSpeed); break;
+                case 4: enemyRigidbody[0].linearVelocity = new Vector2(0f, -movementSpeed);
+                        enemyRigidbody[1].linearVelocity = new Vector2(0f, -movementSpeed); break;
 
-                case 5: enemyRigidbody[0].velocity = new Vector2(-movementSpeed, movementSpeed);
-                        enemyRigidbody[1].velocity = new Vector2(-movementSpeed, movementSpeed); break;
+                case 5: enemyRigidbody[0].linearVelocity = new Vector2(-movementSpeed, movementSpeed);
+                        enemyRigidbody[1].linearVelocity = new Vector2(-movementSpeed, movementSpeed); break;
 
-                case 6: enemyRigidbody[0].velocity = new Vector2(movementSpeed, movementSpeed);
-                        enemyRigidbody[1].velocity = new Vector2(movementSpeed, movementSpeed); break;
+                case 6: enemyRigidbody[0].linearVelocity = new Vector2(movementSpeed, movementSpeed);
+                        enemyRigidbody[1].linearVelocity = new Vector2(movementSpeed, movementSpeed); break;
 
-                case 7: enemyRigidbody[0].velocity = new Vector2(-movementSpeed, -movementSpeed);
-                        enemyRigidbody[1].velocity = new Vector2(-movementSpeed, -movementSpeed); break;
+                case 7: enemyRigidbody[0].linearVelocity = new Vector2(-movementSpeed, -movementSpeed);
+                        enemyRigidbody[1].linearVelocity = new Vector2(-movementSpeed, -movementSpeed); break;
 
-                case 8: enemyRigidbody[0].velocity = new Vector2(movementSpeed, -movementSpeed);
-                        enemyRigidbody[1].velocity = new Vector2(movementSpeed, -movementSpeed); break;
+                case 8: enemyRigidbody[0].linearVelocity = new Vector2(movementSpeed, -movementSpeed);
+                        enemyRigidbody[1].linearVelocity = new Vector2(movementSpeed, -movementSpeed); break;
             }
 
             ScreenWrap0();
@@ -247,23 +247,23 @@ public class EnemyController : MonoBehaviour
 
             switch (movementDirection0)
             {
-                case 0: enemyRigidbody[0].velocity = new Vector2(0f, 0f); break;
+                case 0: enemyRigidbody[0].linearVelocity = new Vector2(0f, 0f); break;
 
-                case 1: enemyRigidbody[0].velocity = new Vector2(-movementSpeed, 0f); break;
+                case 1: enemyRigidbody[0].linearVelocity = new Vector2(-movementSpeed, 0f); break;
 
-                case 2: enemyRigidbody[0].velocity = new Vector2(movementSpeed, 0f); break;
+                case 2: enemyRigidbody[0].linearVelocity = new Vector2(movementSpeed, 0f); break;
 
-                case 3: enemyRigidbody[0].velocity = new Vector2(0f, movementSpeed); break;
+                case 3: enemyRigidbody[0].linearVelocity = new Vector2(0f, movementSpeed); break;
 
-                case 4: enemyRigidbody[0].velocity = new Vector2(0f, -movementSpeed); break;
+                case 4: enemyRigidbody[0].linearVelocity = new Vector2(0f, -movementSpeed); break;
 
-                case 5: enemyRigidbody[0].velocity = new Vector2(-movementSpeed, movementSpeed); break;
+                case 5: enemyRigidbody[0].linearVelocity = new Vector2(-movementSpeed, movementSpeed); break;
 
-                case 6: enemyRigidbody[0].velocity = new Vector2(movementSpeed, movementSpeed); break;
+                case 6: enemyRigidbody[0].linearVelocity = new Vector2(movementSpeed, movementSpeed); break;
 
-                case 7: enemyRigidbody[0].velocity = new Vector2(-movementSpeed, -movementSpeed); break;
+                case 7: enemyRigidbody[0].linearVelocity = new Vector2(-movementSpeed, -movementSpeed); break;
 
-                case 8: enemyRigidbody[0].velocity = new Vector2(movementSpeed, -movementSpeed); break;
+                case 8: enemyRigidbody[0].linearVelocity = new Vector2(movementSpeed, -movementSpeed); break;
             }
 
             ScreenWrap0();
@@ -284,23 +284,23 @@ public class EnemyController : MonoBehaviour
 
             switch (movementDirection1)
             {
-                case 0: enemyRigidbody[1].velocity = new Vector2(0f, 0f); break;
+                case 0: enemyRigidbody[1].linearVelocity = new Vector2(0f, 0f); break;
 
-                case 1: enemyRigidbody[1].velocity = new Vector2(-movementSpeed, 0f); break;
+                case 1: enemyRigidbody[1].linearVelocity = new Vector2(-movementSpeed, 0f); break;
 
-                case 2: enemyRigidbody[1].velocity = new Vector2(movementSpeed, 0f); break;
+                case 2: enemyRigidbody[1].linearVelocity = new Vector2(movementSpeed, 0f); break;
 
-                case 3: enemyRigidbody[1].velocity = new Vector2(0f, movementSpeed); break;
+                case 3: enemyRigidbody[1].linearVelocity = new Vector2(0f, movementSpeed); break;
 
-                case 4: enemyRigidbody[1].velocity = new Vector2(0f, -movementSpeed); break;
+                case 4: enemyRigidbody[1].linearVelocity = new Vector2(0f, -movementSpeed); break;
 
-                case 5: enemyRigidbody[1].velocity = new Vector2(-movementSpeed, movementSpeed); break;
+                case 5: enemyRigidbody[1].linearVelocity = new Vector2(-movementSpeed, movementSpeed); break;
 
-                case 6: enemyRigidbody[1].velocity = new Vector2(movementSpeed, movementSpeed); break;
+                case 6: enemyRigidbody[1].linearVelocity = new Vector2(movementSpeed, movementSpeed); break;
 
-                case 7: enemyRigidbody[1].velocity = new Vector2(-movementSpeed, -movementSpeed); break;
+                case 7: enemyRigidbody[1].linearVelocity = new Vector2(-movementSpeed, -movementSpeed); break;
 
-                case 8: enemyRigidbody[1].velocity = new Vector2(movementSpeed, -movementSpeed); break;
+                case 8: enemyRigidbody[1].linearVelocity = new Vector2(movementSpeed, -movementSpeed); break;
             }
 
             ScreenWrap1();

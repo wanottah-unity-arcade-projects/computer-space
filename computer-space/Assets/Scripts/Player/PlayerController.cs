@@ -183,7 +183,7 @@ public class PlayerController : MonoBehaviour
     {
         if (GameController.gameController.playerDestroyed)
         {
-            playerShipRigidbody.velocity = Vector2.zero;
+            playerShipRigidbody.linearVelocity = Vector2.zero;
 
             thrusterAnimation.SetBool("playerDestroyed", true);
 
